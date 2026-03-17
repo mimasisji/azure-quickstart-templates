@@ -99,10 +99,10 @@ resource publicIp 'Microsoft.Network/publicIPAddresses@2021-02-01' = {
   name: HostPublicIPAddressName
   location: location
   sku: {
-    name: 'Basic'
+    name: 'Standard'
   }
   properties: {
-    publicIPAllocationMethod: 'Dynamic'
+    publicIPAllocationMethod: 'Static'
     dnsSettings: {
       domainNameLabel: toLower('${HostVirtualMachineName}-${uniqueString(resourceGroup().id)}')
     }
