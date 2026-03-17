@@ -7,7 +7,7 @@ param pipId string = ''
   'Dynamic'
   'Static'
 ])
-param ipAllocationMethod string = 'Dynamic'
+param ipAllocationMethod string = 'Static'
 
 param staticIpAddress string = ''
 param enableIPForwarding bool = false
