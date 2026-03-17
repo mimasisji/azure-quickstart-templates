@@ -191,7 +191,7 @@
       "name": "[parameters('HostPublicIPAddressName')]",
       "location": "[parameters('location')]",
       "sku": {
-        "name": "Basic"
+        "name": "Standard"
       },
       "properties": {
         "publicIPAllocationMethod": "Dynamic",
