@@ -194,7 +194,7 @@
         "name": "Standard"
       },
       "properties": {
-        "publicIPAllocationMethod": "Dynamic",
+        "publicIPAllocationMethod": "Static",
         "dnsSettings": {
           "domainNameLabel": "[toLower(format('{0}-{1}', parameters('HostVirtualMachineName'), uniqueString(resourceGroup().id)))]"
         }
